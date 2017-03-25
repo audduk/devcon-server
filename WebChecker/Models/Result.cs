@@ -10,7 +10,6 @@ namespace WebChecker.Models
         public bool LoginResult { get; set; }
     }
 
-
     public class User
     {
         public string Photo { get; set; }
