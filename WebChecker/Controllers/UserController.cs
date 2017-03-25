@@ -21,11 +21,9 @@ namespace WebChecker.Controllers
         {
             string json = JsonConvert.SerializeObject(new
             {
-                result = new Result()
+                ServiceResponse = new ServiceResponse()
                 {
                     LoginResult = false,
-                    Login = login,
-                    Phone = string.Empty
                 }
             });
 
@@ -33,16 +31,25 @@ namespace WebChecker.Controllers
         }
 
         //[HttpPost]
-        public string GetUserRegister(string login, string phone, string photo)
+        public string GetUserRegister(string login, string phone, string name, string photo)
         {
+            
             string json = JsonConvert.SerializeObject(new
             {
-                result = new Result()
+                ServiceResponse = new ServiceResponse()
                 {
-                    LoginResult = false,
-                    Login = login
+                    LoginResult = false, 
                 }
             });
+
+            var newUser = new User()
+            {
+                Photo = photo,
+                Login = login,
+                Name = name,
+                Phone = photo,
+                UserId = Guid.NewGuid()
+            };
 
             return json;
         }
