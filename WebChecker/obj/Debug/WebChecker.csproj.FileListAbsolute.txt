@@ -77,6 +77,6 @@ C:\Users\bars\Documents\Visual Studio 2015\Projects\CheckLogin\WebChecker\bin\Ne
 C:\Users\bars\Documents\Visual Studio 2015\Projects\CheckLogin\WebChecker\bin\System.Net.Http.Formatting.xml
 C:\Users\bars\Documents\Visual Studio 2015\Projects\CheckLogin\WebChecker\bin\System.Web.Http.xml
 C:\Users\bars\Documents\Visual Studio 2015\Projects\CheckLogin\WebChecker\bin\System.Web.Http.WebHost.xml
-C:\Users\bars\Documents\Visual Studio 2015\Projects\CheckLogin\WebChecker\obj\Debug\WebChecker.csprojResolveAssemblyReference.cache
 C:\Users\bars\Documents\Visual Studio 2015\Projects\CheckLogin\WebChecker\obj\Debug\WebChecker.dll
 C:\Users\bars\Documents\Visual Studio 2015\Projects\CheckLogin\WebChecker\obj\Debug\WebChecker.pdb
+C:\Users\bars\Documents\Visual Studio 2015\Projects\CheckLogin\WebChecker\obj\Debug\WebChecker.csprojResolveAssemblyReference.cache
